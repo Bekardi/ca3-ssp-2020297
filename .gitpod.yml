@@ -1,0 +1,3 @@
+task:
+  - name: Installing XSLT3
+    command: nmp i -g xslt3
