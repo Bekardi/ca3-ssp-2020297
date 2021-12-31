@@ -9,7 +9,7 @@ const   http = require('http'), //This module provides the HTTP server functiona
 
 const   router = express(), 
         server = http.createServer(router);
-/*
+
 router.use(express.static(path.resolve(__dirname,'views'))); //We serve static content from "views" folder
 router.use(express.urlencoded({extended: true})); //We allow the data sent from the client to be encoded in a URL targeting our end point
 router.use(express.json()); //We include support for JSON
@@ -31,8 +31,8 @@ function JSONtoXML(filename, obj, cb) {
     fs.unlinkSync(filepath);
     fs.writeFile(filepath, xml, cb);
 };
-*/
-router.get('/', (req, res) => { 
+
+router.get('/get/html', (req, res) => { 
 
    res.writeHead(200, {'Content' : 'text/html'}); //200 means that this content/page exist 
 
