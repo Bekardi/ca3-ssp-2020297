@@ -1,3 +1,4 @@
+const { route } = require('express/lib/application');
 const   http = require('http'), //This module provides the HTTP server functionalities
         path = require('path'), //The path module provides utilities for working with file and directory paths
         express = require('express'), //This module allows this app to respond to HTTP requests, defines the routing and renders back the required content
@@ -8,7 +9,7 @@ const   http = require('http'), //This module provides the HTTP server functiona
 
 const   router = express(), 
         server = http.createServer(router);
-
+/*
 router.use(express.static(path.resolve(__dirname,'views'))); //We serve static content from "views" folder
 router.use(express.urlencoded({extended: true})); //We allow the data sent from the client to be encoded in a URL targeting our end point
 router.use(express.json()); //We include support for JSON
@@ -30,6 +31,23 @@ function JSONtoXML(filename, obj, cb) {
     fs.unlinkSync(filepath);
     fs.writeFile(filepath, xml, cb);
 };
+*/
+router.get('/', (req, res) => { 
+
+   res.writeHead(200, {'Content' : 'text/html'}); //200 means that this content/page exist 
+
+   let xml = fs.readFileSync('MyMovies.xml', 'utf8'),  
+       xsl = fs.readFileSync('MyMovies.xsl', 'utf8');
+
+   let doc = xmlParse(xml), //turning xml and xsl strings into objects
+       stylesheet = xmlParse(xsl);
+
+   let result = xsltProcess(doc, stylesheet);  //turn these objects into html page
+
+   res.end(result.toString()); //turning it back to string to send to end user
+
+});
+
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
     const addr = server.address();
