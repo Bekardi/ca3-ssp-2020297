@@ -1,212 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog>
+  <section name="Action">
+    <movie>
+      <title>Matrix</title>
+      <director>The Wachowskis</director>
+      <country>USA</country>
+      <company>Columbia</company>
+      <year>1999</year>
+    </movie>
+  <movie >
+    <title>The Batman</title>
+    <director>Tim Burton</director>
+    <country>USA</country>
+    <company>WarnerBros.</company>
+    <year>1989</year>
+  </movie>
   <movie>
     <title>Matrix</title>
-    <director></director>
+    <director>The Wachowskis</director>
     <country>USA</country>
     <company>Columbia</company>
-    <price>10.90</price>
     <year>1985</year>
-  </movie>
-  <movie>
-    <title>Hide your heart</title>
-    <director>Bonnie Tyler</director>
-    <country>UK</country>
-    <company>CBS Records</company>
-    <price>9.90</price>
-    <year>1988</year>
-  </movie>
-  <movie>
-    <title>Greatest Hits</title>
-    <director>Dolly Parton</director>
-    <country>USA</country>
-    <company>RCA</company>
-    <price>9.90</price>
-    <year>1982</year>
   </movie>
   <movie>
     <title>Still got the blues</title>
     <director>Gary Moore</director>
     <country>UK</country>
     <company>Virgin records</company>
-    <price>10.20</price>
     <year>1990</year>
   </movie>
-  <movie>
-    <title>Eros</title>
-    <director>Eros Ramazzotti</director>
-    <country>EU</country>
-    <company>BMG</company>
-    <price>9.90</price>
-    <year>1997</year>
-  </movie>
-  <movie>
-    <title>One night only</title>
-    <director>Bee Gees</director>
-    <country>UK</country>
-    <company>Polydor</company>
-    <price>10.90</price>
-    <year>1998</year>
-  </movie>
-  <movie>
-    <title>Sylvias Mother</title>
-    <director>Dr.Hook</director>
-    <country>UK</country>
-    <company>CBS</company>
-    <price>8.10</price>
-    <year>1973</year>
-  </movie>
-  <movie>
-    <title>Maggie May</title>
-    <director>Rod Stewart</director>
-    <country>UK</country>
-    <company>Pickwick</company>
-    <price>8.50</price>
-    <year>1990</year>
-  </movie>
-  <movie>
-    <title>Romanza</title>
-    <director>Andrea Bocelli</director>
-    <country>EU</country>
-    <company>Polydor</company>
-    <price>10.80</price>
-    <year>1996</year>
-  </movie>
-  <movie>
-    <title>When a man loves a woman</title>
-    <director>Percy Sledge</director>
+  </section>
+  <section name="Action">
+    <movie>
+      <title>Matrix</title>
+      <director>The Wachowskis</director>
+      <country>USA</country>
+      <company>Columbia</company>
+      <year>1999</year>
+    </movie>
+  <movie >
+    <title>The Batman</title>
+    <director>Tim Burton</director>
     <country>USA</country>
-    <company>Atlantic</company>
-    <price>8.70</price>
-    <year>1987</year>
+    <company>WarnerBros.</company>
+    <year>1989</year>
   </movie>
   <movie>
-    <title>Black angel</title>
-    <director>Savage Rose</director>
-    <country>EU</country>
-    <company>Mega</company>
-    <price>10.90</price>
-    <year>1995</year>
-  </movie>
-  <movie>
-    <title>1999 Grammy Nominees</title>
-    <director>Many</director>
-    <country>USA</country>
-    <company>Grammy</company>
-    <price>10.20</price>
-    <year>1999</year>
-  </movie>
-  <movie>
-    <title>For the good times</title>
-    <director>Kenny Rogers</director>
-    <country>UK</country>
-    <company>Mucik Master</company>
-    <price>8.70</price>
-    <year>1995</year>
-  </movie>
-  <movie>
-    <title>Big Willie style</title>
-    <director>Will Smith</director>
+    <title>Matrix</title>
+    <director>The Wachowskis</director>
     <country>USA</country>
     <company>Columbia</company>
-    <price>9.90</price>
-    <year>1997</year>
-  </movie>
-  <movie>
-    <title>Tupelo Honey</title>
-    <director>Van Morrison</director>
-    <country>UK</country>
-    <company>Polydor</company>
-    <price>8.20</price>
-    <year>1971</year>
-  </movie>
-  <movie>
-    <title>Soulsville</title>
-    <director>Jorn Hoel</director>
-    <country>Norway</country>
-    <company>WEA</company>
-    <price>7.90</price>
-    <year>1996</year>
-  </movie>
-  <movie>
-    <title>The very best of</title>
-    <director>Cat Stevens</director>
-    <country>UK</country>
-    <company>Island</company>
-    <price>8.90</price>
-    <year>1990</year>
-  </movie>
-  <movie>
-    <title>Stop</title>
-    <director>Sam Brown</director>
-    <country>UK</country>
-    <company>A and M</company>
-    <price>8.90</price>
-    <year>1988</year>
-  </movie>
-  <movie>
-    <title>Bridge of Spies</title>
-    <director>T`Pau</director>
-    <country>UK</country>
-    <company>Siren</company>
-    <price>7.90</price>
-    <year>1987</year>
-  </movie>
-  <movie>
-    <title>Private Dancer</title>
-    <director>Tina Turner</director>
-    <country>UK</country>
-    <company>Capitol</company>
-    <price>8.90</price>
-    <year>1983</year>
-  </movie>
-  <movie>
-    <title>Midt om natten</title>
-    <director>Kim Larsen</director>
-    <country>EU</country>
-    <company>Medley</company>
-    <price>7.80</price>
-    <year>1983</year>
-  </movie>
-  <movie>
-    <title>Pavarotti Gala Concert</title>
-    <director>Luciano Pavarotti</director>
-    <country>UK</country>
-    <company>DECCA</company>
-    <price>9.90</price>
-    <year>1991</year>
-  </movie>
-  <movie>
-    <title>The dock of the bay</title>
-    <director>Otis Redding</director>
-    <country>USA</country>
-    <company>Stax Records</company>
-    <price>7.90</price>
-    <year>1968</year>
-  </movie>
-  <movie>
-    <title>Picture book</title>
-    <director>Simply Red</director>
-    <country>EU</country>
-    <company>Elektra</company>
-    <price>7.20</price>
     <year>1985</year>
   </movie>
   <movie>
-    <title>Red</title>
-    <director>The Communards</director>
+    <title>Still got the blues</title>
+    <director>Gary Moore</director>
     <country>UK</country>
-    <company>London</company>
-    <price>7.80</price>
-    <year>1987</year>
+    <company>Virgin records</company>
+    <year>1990</year>
+  </movie>
+  </section>
+  <section name="Action">
+    <movie>
+      <title>Matrix</title>
+      <director>The Wachowskis</director>
+      <country>USA</country>
+      <company>Columbia</company>
+      <year>1999</year>
+    </movie>
+  <movie >
+    <title>The Batman</title>
+    <director>Tim Burton</director>
+    <country>USA</country>
+    <company>WarnerBros.</company>
+    <year>1989</year>
   </movie>
   <movie>
-    <title>Unchain my heart</title>
-    <director>Joe Cocker</director>
+    <title>Matrix</title>
+    <director>The Wachowskis</director>
     <country>USA</country>
-    <company>EMI</company>
-    <price>8.20</price>
-    <year>1987</year>
+    <company>Columbia</company>
+    <year>1985</year>
   </movie>
+  <movie>
+    <title>Still got the blues</title>
+    <director>Gary Moore</director>
+    <country>UK</country>
+    <company>Virgin records</company>
+    <year>1990</year>
+  </movie>
+  </section>
+  <section name="Action">
+    <movie>
+      <title>Matrix</title>
+      <director>The Wachowskis</director>
+      <country>USA</country>
+      <company>Columbia</company>
+      <year>1999</year>
+    </movie>
+  <movie >
+    <title>The Batman</title>
+    <director>Tim Burton</director>
+    <country>USA</country>
+    <company>WarnerBros.</company>
+    <year>1989</year>
+  </movie>
+  <movie>
+    <title>Matrix</title>
+    <director>The Wachowskis</director>
+    <country>USA</country>
+    <company>Columbia</company>
+    <year>1985</year>
+  </movie>
+  <movie>
+    <title>Still got the blues</title>
+    <director>Gary Moore</director>
+    <country>UK</country>
+    <company>Virgin records</company>
+    <year>1990</year>
+  </movie>
+  </section>
+  <section name="Action">
+    <movie>
+      <title>Matrix</title>
+      <director>The Wachowskis</director>
+      <country>USA</country>
+      <company>Columbia</company>
+      <year>1999</year>
+    </movie>
+  <movie >
+    <title>The Batman</title>
+    <director>Tim Burton</director>
+    <country>USA</country>
+    <company>WarnerBros.</company>
+    <year>1989</year>
+  </movie>
+  <movie>
+    <title>Matrix</title>
+    <director>The Wachowskis</director>
+    <country>USA</country>
+    <company>Columbia</company>
+    <year>1985</year>
+  </movie>
+  <movie>
+    <title>Still got the blues</title>
+    <director>Gary Moore</director>
+    <country>UK</country>
+    <company>Virgin records</company>
+    <year>1990</year>
+  </movie>
+  </section>
+ 
+  
 </catalog>
 
