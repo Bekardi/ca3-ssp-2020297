@@ -30,7 +30,7 @@
     <year>1990</year>
   </movie>
   </section>
-  <section name="Action">
+  <section name="Comedy">
     <movie>
       <title>Matrix</title>
       <director>The Wachowskis</director>
@@ -60,7 +60,7 @@
     <year>1990</year>
   </movie>
   </section>
-  <section name="Action">
+  <section name="Horror">
     <movie>
       <title>Matrix</title>
       <director>The Wachowskis</director>
@@ -90,7 +90,7 @@
     <year>1990</year>
   </movie>
   </section>
-  <section name="Action">
+  <section name="Fantasy">
     <movie>
       <title>Matrix</title>
       <director>The Wachowskis</director>

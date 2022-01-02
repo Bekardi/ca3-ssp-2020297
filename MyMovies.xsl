@@ -4,22 +4,35 @@
 <html> 
 <body>
   <h2>My Favorite Movies</h2>
-  <table border="1">
-    <tr bgcolor="#343a40">
+  <table  id="moviesTable" border="1" class="indent">
+  <thead>
+    <tr bgcolor="#green">
+        <th style="text-align:right">Title</th>
+        <th style="text-align:right">Director</th>
+        <th style="text-align:right">Country</th>
+        <th style="text-align:right">Company</th>
+        <th style="text-align:right">Year</th>
+    </tr>    
+  </thead>
+  <tbody>
      <xsl:for-each select="//section">
-      <th colspan="4"> 
-      <xsl:value-of select="@name" />
-       </th>
-    </tr>
-    <xsl:for-each select="catalog/section/movie">
-    <tr>
-      <td><xsl:value-of select="title"/></td>
-      <td><xsl:value-of select="director"/></td>
-      <td><xsl:value-of select="country"/></td>
-      <td><xsl:value-of select="company"/></td>
-      <td><xsl:value-of select="year"/></td>
-    </tr>
+         <tr>
+            <td colspan="6"> 
+              <xsl:value-of select="@name" />
+            </td>
+         </tr>
+    <xsl:for-each select="movie">
+      <tr>
+        <td align="right"><input name="item0" type="checkbox" /></td>
+        <td><xsl:value-of select="title"/></td>
+        <td><xsl:value-of select="director"/></td>
+        <td><xsl:value-of select="country"/></td>
+        <td><xsl:value-of select="company"/></td>
+        <td><xsl:value-of select="year"/></td>
+      </tr>
     </xsl:for-each>
+    </xsl:for-each>
+    </tbody>
   </table>
 </body>
 </html>
