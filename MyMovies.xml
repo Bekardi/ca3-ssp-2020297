@@ -1,64 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalog>
   <section name="Action">
     <movie>
-      <title>Matrix</title>
-      <director>The Wachowskis</director>
+      <title>Avengers</title>
+      <director>Russo Brothers</director>
       <country>USA</country>
-      <company>Columbia</company>
-      <year>1999</year>
+      <company>Disney</company>
+      <year>2012</year>
     </movie>
-  <movie >
-    <title>The Batman</title>
-    <director>Tim Burton</director>
-    <country>USA</country>
-    <company>WarnerBros.</company>
-    <year>1989</year>
-  </movie>
-  <movie>
-    <title>Matrix</title>
-    <director>The Wachowskis</director>
-    <country>USA</country>
-    <company>Columbia</company>
-    <year>1985</year>
-  </movie>
-  <movie>
-    <title>Still got the blues</title>
-    <director>Gary Moore</director>
-    <country>UK</country>
-    <company>Virgin records</company>
-    <year>1990</year>
-  </movie>
   </section>
   <section name="Comedy">
     <movie>
-      <title>Matrix</title>
-      <director>The Wachowskis</director>
-      <country>USA</country>
-      <company>Columbia</company>
-      <year>1999</year>
+      <title>Still got the blues</title>
+      <director>Gary Moore</director>
+      <country>UK</country>
+      <company>Virgin records</company>
+      <year>1990</year>
     </movie>
-  <movie >
-    <title>The Batman</title>
-    <director>Tim Burton</director>
-    <country>USA</country>
-    <company>WarnerBros.</company>
-    <year>1989</year>
-  </movie>
-  <movie>
-    <title>Matrix</title>
-    <director>The Wachowskis</director>
-    <country>USA</country>
-    <company>Columbia</company>
-    <year>1985</year>
-  </movie>
-  <movie>
-    <title>Still got the blues</title>
-    <director>Gary Moore</director>
-    <country>UK</country>
-    <company>Virgin records</company>
-    <year>1990</year>
-  </movie>
   </section>
   <section name="Horror">
     <movie>
@@ -66,91 +24,53 @@
       <director>The Wachowskis</director>
       <country>USA</country>
       <company>Columbia</company>
-      <year>1999</year>
+      <year>1985</year>
     </movie>
-  <movie >
-    <title>The Batman</title>
-    <director>Tim Burton</director>
-    <country>USA</country>
-    <company>WarnerBros.</company>
-    <year>1989</year>
-  </movie>
-  <movie>
-    <title>Matrix</title>
-    <director>The Wachowskis</director>
-    <country>USA</country>
-    <company>Columbia</company>
-    <year>1985</year>
-  </movie>
-  <movie>
-    <title>Still got the blues</title>
-    <director>Gary Moore</director>
-    <country>UK</country>
-    <company>Virgin records</company>
-    <year>1990</year>
-  </movie>
+    <movie>
+      <title>Still got the blues</title>
+      <director>Gary Moore</director>
+      <country>UK</country>
+      <company>Virgin records</company>
+      <year>1990</year>
+    </movie>
   </section>
   <section name="Fantasy">
     <movie>
-      <title>Matrix</title>
-      <director>The Wachowskis</director>
+      <title>The Batman</title>
+      <director>Tim Burton</director>
       <country>USA</country>
-      <company>Columbia</company>
-      <year>1999</year>
+      <company>WarnerBros.</company>
+      <year>1989</year>
     </movie>
-  <movie >
-    <title>The Batman</title>
-    <director>Tim Burton</director>
-    <country>USA</country>
-    <company>WarnerBros.</company>
-    <year>1989</year>
-  </movie>
-  <movie>
-    <title>Matrix</title>
-    <director>The Wachowskis</director>
-    <country>USA</country>
-    <company>Columbia</company>
-    <year>1985</year>
-  </movie>
-  <movie>
-    <title>Still got the blues</title>
-    <director>Gary Moore</director>
-    <country>UK</country>
-    <company>Virgin records</company>
-    <year>1990</year>
-  </movie>
-  </section>
-  <section name="Action">
     <movie>
       <title>Matrix</title>
       <director>The Wachowskis</director>
       <country>USA</country>
       <company>Columbia</company>
-      <year>1999</year>
+      <year>1985</year>
     </movie>
-  <movie >
-    <title>The Batman</title>
-    <director>Tim Burton</director>
-    <country>USA</country>
-    <company>WarnerBros.</company>
-    <year>1989</year>
-  </movie>
-  <movie>
-    <title>Matrix</title>
-    <director>The Wachowskis</director>
-    <country>USA</country>
-    <company>Columbia</company>
-    <year>1985</year>
-  </movie>
-  <movie>
-    <title>Still got the blues</title>
-    <director>Gary Moore</director>
-    <country>UK</country>
-    <company>Virgin records</company>
-    <year>1990</year>
-  </movie>
+    <movie>
+      <title>Still got the blues</title>
+      <director>Gary Moore</director>
+      <country>UK</country>
+      <company>Virgin records</company>
+      <year>1990</year>
+    </movie>
   </section>
- 
-  
+  <section name="Anime">
+    <movie>
+      <title>The Batman</title>
+      <director>Tim Burton</director>
+      <country>USA</country>
+      <company>WarnerBros.</company>
+      <year>1989</year>
+    </movie>
+    <movie>
+      <title>Matrix</title>
+      <director>The Wachowskis</director>
+      <country>USA</country>
+      <company>Columbia</company>
+      <year>1985</year>
+    </movie>
+  </section>
 </catalog>
-

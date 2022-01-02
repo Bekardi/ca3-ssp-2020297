@@ -37,6 +37,13 @@ td, th {
 
 th {
     font-weight: bold;
+    color:whitesmoke;
+}
+
+#genre{
+    background-color: bisque;
+    font-size: large;
+    text-align: center;
 }
 
 .selected {

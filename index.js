@@ -48,8 +48,57 @@ router.get('/get/html', (req, res) => {
 
 });
 
+router.post('/post/json', function (req, res) {
 
-server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
+    function appendJSON(obj) {
+
+        console.log(obj)
+
+        XMLtoJSON('MyMovies.xml', function (err, result) {
+            if (err) throw (err);
+            
+            result.catalog.section[obj.sec_n].movie.push({'title': obj.title, 'director': obj.director, 'country': obj.country, 'company': obj.company, 'year': obj.year});
+
+            console.log(JSON.stringify(result, null, "  "));
+
+            JSONtoXML('MyMovies.xml', result, function(err){
+                if (err) console.log(err);
+            });
+        });
+    };
+
+    appendJSON(req.body);
+
+    res.redirect('back');
+
+});
+
+router.post('/post/delete', function (req, res) {
+
+    function deleteJSON(obj) {
+
+        console.log(obj)
+
+        XMLtoJSON('MyMovies.xml', function (err, result) {
+            if (err) throw (err);
+            
+            delete result.catalog.section[obj.section].movie[obj.movie];
+
+            console.log(JSON.stringify(result, null, "  "));
+
+            JSONtoXML('MyMovies.xml', result, function(err){
+                if (err) console.log(err);
+            });
+        });
+    };
+
+    deleteJSON(req.body);
+
+    res.redirect('back');
+
+});
+
+server.listen(process.env.PORT || 8000, process.env.IP || "0.0.0.0", function() {
     const addr = server.address();
     console.log("Server listening at", addr.address + ":" + addr.port)
 });
